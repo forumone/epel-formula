@@ -8,7 +8,7 @@
     'key_hash': 'md5=a1d12cd9628338ddb12e9561f9ac1d6a',
     'rpm': 'http://download.fedoraproject.org/pub/epel/5/i386/Packages/e/epel-release-5-4.noarch.rpm',
   } %}
-{% elif grains['osmajorrelease'][0] == '6' %}
+{% elif grains['osmajorrelease'][0] == 6 %}
   {% set pkg = {
     'key': 'salt://epel/files/0608B895.txt',
     'key_hash': 'md5=eb8749ea67992fd622176442c986b788',
